@@ -1,0 +1,94 @@
+
+html,body{
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background-color: #ddd;
+   overflow:hidden;
+   font-family: "Lato";
+}
+
+#logo_container{
+    background-color: #fff;
+    opacity:1;
+    position: absolute; 
+    left:0;
+    top:0;
+    bottom:0;
+    right:90%;
+    z-index: 0;
+    overflow: hidden;
+}
+#logo_container::after{
+    content:'';
+    background-image: url('../images/OMRSsig1.jpg');
+    transform: rotate(90deg) scale(2);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right:0;    
+}
+.container{
+    position: absolute;
+    width:100%;
+    height: auto;
+   z-index:2;
+}
+.container .heading h1{
+    position: fixed;
+    top:20%;
+    left:55%;
+    transform: translateX(-50%);
+    font-size:90px;
+    margin:auto;
+    white-space: nowrap;
+   
+}
+.container .heading  span{
+    text-decoration:underline;
+    padding:0px,5px;
+    font-family: "Lobster";
+}
+.container .heading h3{
+    position: fixed;
+    top:40%;
+    left:55%;
+    transform: translateX(-50%);
+    font-size:40px;
+    text-align: center;
+    width:55%;
+    line-height: 1.75;
+}
+.container .heading h4{
+    position: fixed;
+    top:75%;
+    left:55%;
+    transform: translateX(-50%);
+    font-size:60px;
+    text-align: center;
+    width:55%;
+}
+footer{
+    font-size: 15px;
+    position: absolute;
+    bottom:0;
+    left:11%;
+}
+.gciCont img{
+    position: relative;
+    right:-40%;
+    height: 125px;
+    padding:10px;
+}
+.gciCont{
+    position: absolute;
+    left:0;
+    right:0;
+    background-color: #fff;
+}
