@@ -10,36 +10,6 @@ html,body{
    font-family: "Lato";
 }
 
-#logo_container{
-    background-color: #fff;
-    opacity:1;
-    position: absolute; 
-    left:0;
-    top:0;
-    bottom:0;
-    right:90%;
-    z-index: 0;
-    overflow: hidden;
-}
-#logo_container::after{
-    content:'';
-    background-image: url('../images/OMRSsig1.jpg');
-    transform: rotate(90deg) scale(2);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    top:0;
-    left:0;
-    bottom: 0;
-    right:0;    
-}
-.container{
-    position: absolute;
-    width:100%;
-    height: auto;
-   z-index:2;
-}
 .container .heading h1{
     position: fixed;
     top:20%;
