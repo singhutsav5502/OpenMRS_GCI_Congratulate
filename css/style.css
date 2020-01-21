@@ -43,7 +43,7 @@ html,body{
 .container .heading h1{
     position: fixed;
     top:20%;
-    left:55%;
+    left:50%;
     transform: translateX(-50%);
     font-size:90px;
     margin:auto;
@@ -58,7 +58,7 @@ html,body{
 .container .heading h3{
     position: fixed;
     top:40%;
-    left:55%;
+    left:50%;
     transform: translateX(-50%);
     font-size:40px;
     text-align: center;
@@ -68,7 +68,7 @@ html,body{
 .container .heading h4{
     position: fixed;
     top:75%;
-    left:55%;
+    left:50%;
     transform: translateX(-50%);
     font-size:60px;
     text-align: center;
@@ -80,13 +80,17 @@ footer{
     bottom:0;
     left:11%;
 }
-.gciCont img{
+.logo img{
     position: relative;
-    right:-40%;
+    right:-60%;
     height: 125px;
     padding:10px;
 }
-.gciCont{
+#OpenMRS{
+    position: absolute;
+    left:0;
+}
+.logo{
     position: absolute;
     left:0;
     right:0;
